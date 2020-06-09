@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #A8D4AD;
+  /* color: white; */
+}
+
+#title {
+  font-size: 4rem;
+  font-family: 'IM Fell English', serif;
+}
+
+.jumbotron {
+  background-color: #92B9BD;
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+main {
+  width: 75%;
+  margin: auto;
+}
+
+#navbar-main {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+#navbar, li {
+  margin-right: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  background-color: #43894B;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+#log-in p {
+  margin: 0;
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #7D8CC4;
+}
+
+.lorem-ipsum {
+  font-style: italic;
+  font-family: 'IM Fell English', serif;
+}
+
+.text-1 {
+  margin-bottom: 60px;
+}
+
+#presentation {
+  margin:60px 0 60px 0;
+}
+
+.gallery {
+  margin:60px 0 60px 0;
+}
+
+.gallery-img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #594157;
+}
